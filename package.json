@@ -1,0 +1,45 @@
+{
+  "name": "dhobighar",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.17.3",
+    "@react-native-picker/picker": "^2.4.8",
+    "@react-navigation/material-bottom-tabs": "^6.2.11",
+    "@react-navigation/native": "^6.1.2",
+    "@react-navigation/native-stack": "^6.9.8",
+    "@reduxjs/toolkit": "^1.9.2",
+    "axios": "^1.2.6",
+    "expo": "~47.0.12",
+    "expo-splash-screen": "~0.17.5",
+    "expo-status-bar": "~1.4.2",
+    "formik": "^2.2.9",
+    "graphql": "^15.8.0",
+    "mime": "^3.0.0",
+    "moment": "^2.29.4",
+    "native-base": "^3.4.25",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-datefield": "^0.3.6",
+    "react-native-image-picker": "^5.0.1",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-pager-view": "6.0.1",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-native-svg": "13.4.0",
+    "react-native-tab-view": "^3.3.4",
+    "react-redux": "^8.0.5",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "react-native-svg-transformer": "^1.0.0"
+  },
+  "private": true
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "full_name",
+    "placeholder": "Enter your Full name",
+    "type": "text",
+    "defaultValue": ""
+  },
+  {
+    "name": "email",
+    "placeholder": "Enter your email",
+    "type": "email",
+    "defaultValue": ""
+  },
+  {
+    "name": "contact_number",
+    "placeholder": "Enter your phone number e.g 03122304798",
+    "type": "numeric",
+    "defaultValue": ""
+  },
+  {
+    "name": "password",
+    "placeholder": "Enter password must be atleast 8 characters",
+    "type": "password",
+    "defaultValue": ""
+  },
+  {
+    "name": "confirm_password",
+    "placeholder": "Enter password must be atleast 8 characters",
+    "type": "password",
+    "defaultValue": ""
+  },
+  {
+    "name": "city",
+    "placeholder": "Enter your city",
+    "type": "text",
+    "defaultValue": ""
+  },
+  {
+    "name": "birth_date",
+    "type": "text",
+    "defaultValue": "",
+    "placeholder": "Enter your date of birth DD-MM-YYYY"
+  },
+  {
+    "name": "gender",
+    "placeholder": "Select Your Gender",
+    "type": "select",
+    "defaultValue": "",
+    "defaultItemLabel": "Select Gender",
+    "items": [
+      { "id": 1, "label": "Male", "value": "male" },
+      { "id": 2, "label": "Female", "value": "female" },
+      { "id": 3, "label": "Other", "value": "other" }
+    ]
+  }
+]

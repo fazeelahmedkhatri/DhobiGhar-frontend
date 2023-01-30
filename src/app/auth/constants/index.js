@@ -1,0 +1,1 @@
+export { default as signUpFormData } from "./signUp.json"
